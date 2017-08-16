@@ -1,13 +1,26 @@
-14 MB11
+14 MB11  $53.8
 	 2 X 2  $9.95
 	 2 X 5  $16.95
-10 VS5
+10 VS5  $17.98
 	 2 X 5  $8.99
-13 CF
+13 CF  $25.85
 	 1 X 3  $5.95
 	 2 X 5  $9.95
-1 VS5
+1 VS5  $4611686018427387903
 	 Order Can not be Processed. Please look at the availbale Packs and chage your order
-45 MB11
+45 MB11  $141.7
+	 1 X 5  $16.95
+	 5 X 8  $24.95
+14 MB11  $53.8
+	 2 X 2  $9.95
+	 2 X 5  $16.95
+10 VS5  $17.98
+	 2 X 5  $8.99
+13 CF  $25.85
+	 1 X 3  $5.95
+	 2 X 5  $9.95
+1 VS5 $ NA
+	 Order Can not be Processed. Please look at the availbale Packs and chage your order
+45 MB11  $141.7
 	 1 X 5  $16.95
 	 5 X 8  $24.95

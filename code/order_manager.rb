@@ -20,10 +20,11 @@ class OrderManager
 
   def write_to_output_file(product, order_total)
     File.open('./' + OUTPUT_FILE, "a") do |f|
-      f.puts("#{order_total} #{product.code}")
       if product.best_priced_cost == Product::FIXNUM_MAX
+        f.puts("#{order_total} #{product.code} $ NA")
         f.puts("\t Order Can not be Processed. Please look at the availbale Packs and chage your order")
       else
+        f.puts("#{order_total} #{product.code}  $#{product.best_priced_cost}")
         product.best_priced_combo_hash.each do |availbale_pack, required_number|
           f.puts("\t #{required_number} X #{availbale_pack}  $#{product.packs[availbale_pack]}")
         end
