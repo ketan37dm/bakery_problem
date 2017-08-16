@@ -28,4 +28,12 @@ class Product
       optimal_cost_and_pack_combo(order_total, current_combo + [@packs.keys[i]])
     end
   end
+
+  def best_priced_combo_hash
+    combo_hash = {}
+    best_priced_combo.each do |key|
+      combo_hash.keys.include?(key) ? (combo_hash[key] += 1) : (combo_hash[key] = 1)
+    end
+    combo_hash
+  end
 end
