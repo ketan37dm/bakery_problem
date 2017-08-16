@@ -11,16 +11,12 @@ class Product
   end
 
   def optimal_cost_and_pack_combo(order_total, current_combo = [])
-    # puts "*****" * 4
     current_sum = current_combo.inject(0, :+)
     current_cost = current_combo.map{ |value| @packs[value] }.inject(0, :+).round(2)
     if current_sum == order_total && current_cost < @best_priced_cost
       @best_priced_cost = current_cost
       @best_priced_combo = current_combo
     end
-    # %w(order_total current_combo current_sum current_cost best_priced_combo best_priced_cost).each do |variable|
-    #   puts "#{variable} - #{ eval(variable) }"
-    # end
 
     return if current_sum > order_total
 
